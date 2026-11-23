@@ -224,7 +224,7 @@ ColumnLayout {
         StackLayout {
             // Sync the visible view with the active tab index
             currentIndex: tabsNavigation.currentIndex
-            //anchors.fill: parent
+            anchors.fill: parent
 
             Kirigami.Page {
                 id: layoutTab
